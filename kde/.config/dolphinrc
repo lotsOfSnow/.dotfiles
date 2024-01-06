@@ -1,0 +1,21 @@
+[ContentDisplay]
+UsePermissionsFormat=CombinedFormat
+
+[General]
+RememberOpenedTabs=false
+ShowFullPath=true
+ShowFullPathInTitlebar=true
+SplitView=true
+Version=202
+ViewPropsTimestamp=2024,1,5,22,7,17.757
+
+[KFileDialog Settings]
+Places Icons Auto-resize=false
+Places Icons Static Size=22
+
+[MainWindow]
+MenuBar=Disabled
+ToolBarsMovable=Disabled
+
+[PreviewSettings]
+Plugins=audiothumbnail,comicbookthumbnail,cursorthumbnail,djvuthumbnail,ebookthumbnail,exrthumbnail,directorythumbnail,imagethumbnail,jpegthumbnail,kraorathumbnail,windowsexethumbnail,windowsimagethumbnail,opendocumentthumbnail,svgthumbnail,textthumbnail

@@ -1,2 +1,2 @@
-source $ZDOTDIR/.zshenv
+source $HOME/.zshenv
 source $ZDOTDIR/.zshrc

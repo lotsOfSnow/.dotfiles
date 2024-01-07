@@ -10,10 +10,16 @@ alias grep="grep -P -i --color=auto"
 
 # git
 alias gs="git status"
-alias gc="git commit"
+alias gcom="git commit"
 alias gpo="git push origin"
-alias gco="git checkout "
+alias gpl="git pull"
+alias gc="git checkout"
+alias gcb="git checkout -b"
+alias gcm="git checkout main"
+alias gc="git checkout -b"
 alias gl="git log --pretty=oneline"
+alias gbr="git branch"
+alias gbd="git branch -D"
 
 # directories
 alias goto-code="cd $CODE_DIR"
@@ -35,3 +41,15 @@ alias dot-commit="$DOTFILES_SCRIPTS/dotfiles/commit.sh"
 alias dot-push="$DOTFILES_SCRIPTS/dotfiles/push.sh"
 alias dot-stow="$DOTFILES_SCRIPTS/dotfiles/stow-all.sh"
 alias dot-aliases="cat $DOTFILES_EXTRA/aliases/aliases.sh"
+
+# systemctl
+alias services="sudo systemctl"
+alias services-enable="sudo systemctl enable"
+alias services-run="sudo systemctl start"
+alias services-status="sudo systemctl status"
+
+# docker
+alias dkr-cu="docker compose up -d"
+
+# clear
+alias cls="clear"

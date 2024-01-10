@@ -49,7 +49,13 @@ alias services-run="sudo systemctl start"
 alias services-status="sudo systemctl status"
 
 # docker
-alias dkr-cu="docker compose up -d"
+alias dkr-c="docker compose up -d"
 
 # clear
 alias cls="clear"
+
+# npm
+alias nprd="npm run dev"
+alias nprt="npm run test"
+alias nprl="npm run lint"
+alias nprb="npm run build"

@@ -1,1 +1,1 @@
-import = ["/home/snow/.config/alacritty/colors.toml", "/home/snow/.config/alacritty/fonts.toml", "/home/snow/.config/alacritty/window.toml"]
+import = ["~/.config/alacritty/colors.toml", "~/.config/alacritty/fonts.toml", "~/.config/alacritty/window.toml"]

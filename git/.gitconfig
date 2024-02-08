@@ -12,3 +12,4 @@
 	email = lotsofsnow.dev@gmail.com
 [core]
 	editor = nano
+	autocrlf = input

@@ -13,10 +13,9 @@ alias gs="git status"
 alias gcom="git commit"
 alias gpo="git push origin"
 alias gpl="git pull"
-alias gc="git checkout"
-alias gcb="git checkout -b"
-alias gcm="git checkout main"
-alias gc="git checkout -b"
+alias gchk="git checkout"
+alias gchkb="git checkout -b"
+alias gchkm="git checkout main"
 alias gl="git log --pretty=oneline"
 alias gbr="git branch"
 alias gbd="git branch -D"
@@ -59,3 +58,9 @@ alias nprd="npm run dev"
 alias nprt="npm run test"
 alias nprl="npm run lint"
 alias nprb="npm run build"
+
+# python
+alias py="python"
+
+# mine
+alias shuf-recap="shuf -n 1 $DOCUMENTS_DIR/Obsidian/Main/Reading/Recap.md"

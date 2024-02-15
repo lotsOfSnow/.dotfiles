@@ -63,4 +63,5 @@ alias nprb="npm run build"
 alias py="python"
 
 # mine
-alias shuf-recap="shuf -n 1 $DOCUMENTS_DIR/Obsidian/Main/Reading/Recap.md"
+alias rec1="shuf -n 1 $DOCUMENTS_DIR/Obsidian/Main/Reading/Recap.md"
+alias rec2="shuf -n 2 $DOCUMENTS_DIR/Obsidian/Main/Reading/Recap.md"

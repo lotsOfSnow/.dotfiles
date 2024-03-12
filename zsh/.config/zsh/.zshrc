@@ -43,6 +43,10 @@ source "$ZDOTDIR/bindings.zsh"
 # [Plugins]
 source $ZSH_PLUGINS/zsh-shift-select.plugin.zsh
 
+# [Path]
+# use with wget https://dot.net/v1/dotnet-install.sh to not rely on dnf
+export PATH=$PATH:$HOME/.dotnet
+export DOTNET_ROOT=$HOME/.dotnet
 
 # MUST BE AT END 
 # [Syntax highlighting - https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md]
